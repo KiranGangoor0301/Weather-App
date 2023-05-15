@@ -111,21 +111,14 @@ body
 .error p{
     font-size: 30px;
 }
-@media (max-width: 480px) {
+@media (max-width: 450px) {
     .search {
-      flex-wrap: wrap;
-      justify-content: center;
+      width: 100%;
     }
     
     .search input {
-      margin-right: 0;
-      margin-bottom: 10px;
-      width: 100%;
+      width:180px;
     }
     
-    .search button {
-      width: 100%;
-      max-width: 200px;
-    }
   }
   
