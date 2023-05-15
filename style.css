@@ -113,11 +113,17 @@ body
 }
 @media (max-width: 450px) {
     .search {
-      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-    
-    .search input {
-      width:180px;
+    .search button
+    {
+        width: 60px;
+    }
+    .search input
+    {
+        width: 100px;
     }
     
   }
