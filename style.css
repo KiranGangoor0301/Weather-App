@@ -111,3 +111,9 @@ body
 .error p{
     font-size: 30px;
 }
+@media all and (max-width : 450px)
+{
+.search input{
+width: 90px;
+}
+}
